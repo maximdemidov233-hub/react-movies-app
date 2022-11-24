@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  margin-bottom: 7px;
+}
+
+.nav-wrapper {
+  padding: 0 15px;
+}
+
+.brand-logo {
+  display: flex !important;
+  justify-content: center;
+  height: 64px;
+  font-size: 24px !important;
+}
+
+.content {
+  min-height: 100vh;
+  width: 80%;
+}
+
+.progress {
+ margin-top: 100px;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-btn {
+  position: absolute;
+  top: 3px;
+  right: 13px;
+}
